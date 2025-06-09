@@ -1,3 +1,5 @@
+using ACME.LearningCenterPlatform.API.Publishing.Domain.Model.Commands;
+
 namespace ACME.LearningCenterPlatform.API.Publishing.Domain.Model.Entities;
 
 /// <summary>
@@ -25,5 +27,10 @@ public class Category
     public Category(string name)
     {
         Name = name;
+    }
+
+    public Category(CreateCategoryCommand command)
+    {
+        Name = command.Name;
     }
 }

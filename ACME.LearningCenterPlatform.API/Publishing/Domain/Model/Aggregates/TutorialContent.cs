@@ -75,4 +75,10 @@ public partial class Tutorial : IPublishable
         if(ExistsImageWithUrl(imageUrl)) return;
         Assets.Add(new ImageAsset(imageUrl));
     }
+    
+    public void AddVideo(string videoUrl)
+    {
+        if(ExistsVideoWithUrl(videoUrl)) return;
+        Assets.Add(new VideoAsset(videoUrl));
+    }
 }
