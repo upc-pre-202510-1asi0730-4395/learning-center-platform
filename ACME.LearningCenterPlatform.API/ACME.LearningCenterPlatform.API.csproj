@@ -30,4 +30,15 @@
         <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.11.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Profiles\Application\" />
+      <Folder Include="Profiles\Domain\Model\Aggregates\" />
+      <Folder Include="Profiles\Domain\Model\Commands\" />
+      <Folder Include="Profiles\Domain\Model\Queries\" />
+      <Folder Include="Profiles\Domain\Repositories\" />
+      <Folder Include="Profiles\Domain\Services\" />
+      <Folder Include="Profiles\Infrastructure\" />
+      <Folder Include="Profiles\Interfaces\" />
+    </ItemGroup>
+
 </Project>
